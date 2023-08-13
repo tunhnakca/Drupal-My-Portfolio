@@ -1,13 +1,13 @@
 <?php return array(
     'root' => array(
         'name' => 'drupal/legacy-project',
-        'pretty_version' => '10.1.2',
-        'version' => '10.1.2.0',
-        'reference' => 'fb759411e91e2556ef67d88fcb6320174936ebf5',
+        'pretty_version' => 'dev-main',
+        'version' => 'dev-main',
+        'reference' => 'ab9c18366b679634f83bdb6d9d17d420af9f8a36',
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'dev' => false,
+        'dev' => true,
     ),
     'versions' => array(
         'asm89/stack-cors' => array(
@@ -61,6 +61,15 @@
             'reference' => '39ab8fcf5a51ce4b85ca97c7a7d033eb12831124',
             'type' => 'library',
             'install_path' => __DIR__ . '/../doctrine/lexer',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+        'drupal/admin_toolbar' => array(
+            'pretty_version' => '3.4.1',
+            'version' => '3.4.1.0',
+            'reference' => '3.4.1',
+            'type' => 'drupal-module',
+            'install_path' => __DIR__ . '/../../modules/contrib/admin_toolbar',
             'aliases' => array(),
             'dev_requirement' => false,
         ),
@@ -254,9 +263,9 @@
             ),
         ),
         'drupal/legacy-project' => array(
-            'pretty_version' => '10.1.2',
-            'version' => '10.1.2.0',
-            'reference' => 'fb759411e91e2556ef67d88fcb6320174936ebf5',
+            'pretty_version' => 'dev-main',
+            'version' => 'dev-main',
+            'reference' => 'ab9c18366b679634f83bdb6d9d17d420af9f8a36',
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
