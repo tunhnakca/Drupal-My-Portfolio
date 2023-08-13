@@ -1,0 +1,10 @@
+base:
+  version: 1.0.0
+  css:
+    base:
+      css/general.css: {}
+      css/style.css: {}
+      css/queries.css: {}
+  js:
+    base:
+      js/script.js: {}
