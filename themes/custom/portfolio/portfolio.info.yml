@@ -12,3 +12,4 @@ regions:
 libraries:
   - portfolio/global-css
   - portfolio/global-js
+  - portfolio/kanit-sans-serif

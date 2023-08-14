@@ -9,5 +9,13 @@ global-css:
 global-js:
   version: 1.0.0
   js:
+    js/script.js: {}
+
+kanit-sans-serif:
+  license:
+    name: SIL Open Font License 1.1
+    url: https://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=OFL
+  css:
     theme:
-      js/script.js: {}
+      //fonts.googleapis.com/css2?family=Kanit: { type: external }
+      css/global.css: {}
