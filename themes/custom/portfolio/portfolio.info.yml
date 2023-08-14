@@ -10,4 +10,5 @@ regions:
   footer: "Footer"
 
 libraries:
-  - portfolio/base
+  - portfolio/global-css
+  - portfolio/global-js

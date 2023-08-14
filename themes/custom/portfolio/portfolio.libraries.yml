@@ -1,10 +1,13 @@
-base:
+global-css:
   version: 1.0.0
   css:
-    base:
+    theme:
       css/general.css: {}
       css/style.css: {}
       css/queries.css: {}
+
+global-js:
+  version: 1.0.0
   js:
-    base:
+    theme:
       js/script.js: {}
