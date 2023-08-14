@@ -23,18 +23,15 @@ Items for the second sidebar. * - page.footer: Items for the footer region. * -
 page.breadcrumb: Items for the breadcrumb region. * * @see
 template_preprocess_page() * @see html.html.twig */ #}
 
-<div class="layout-container">
-  <header>
-    {{ page.header }}
-  </header>
-  {# /.header #}
+<header>
+  {{ page.header }}
+</header>
+{# /.header #}
 
-  <section>
-    {{ page.content }}
-  </section>
+<section class="section">
+  {{ page.content }}
+</section>
 
-  <footer>
-    {{ page.footer }}
-  </footer>
-</div>
-{# /.layout-container #}
+<footer>
+  {{ page.footer }}
+</footer>
