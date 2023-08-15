@@ -19,3 +19,9 @@ kanit-sans-serif:
     theme:
       //fonts.googleapis.com/css2?family=Kanit: { type: external }
       css/global.css: {}
+
+main_nav:
+  version: 0.1
+  css:
+    component:
+      css/main_nav/main_nav.css: {}
