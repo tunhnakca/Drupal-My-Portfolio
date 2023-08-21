@@ -1,0 +1,84 @@
+.section-cta {
+  padding: 9.6rem 0;
+}
+
+.container {
+  /* 1140px */
+  max-width: 120rem;
+  padding: 0 3.2rem;
+  margin: 0 auto;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-form {
+  padding: 4.8rem 6.4rem;
+  background-color: #fff;
+  box-shadow: 0px 6px 12px 0px rgba(0, 0, 0, 0.15);
+}
+
+.contact-form:first-child::before {
+  display: block;
+  content: "Contact Us";
+
+  font-size: 4.4rem;
+  font-weight: 700;
+  line-height: 1.2;
+  color: #1d1d1f;
+
+  margin-bottom: 0.4rem;
+}
+
+.field--name-field-contact-us-first-name::before {
+  display: block;
+  content: "We will get back to you asap!";
+
+  font-size: 1.2rem;
+  font-weight: 400;
+  line-height: 1.2;
+  color: #1d1d1f;
+  margin-bottom: 3.2rem;
+}
+
+.form-wrapper:not(:last-child) {
+  margin-bottom: 3.2rem;
+}
+
+.contact-form label {
+  display: block;
+  font-size: 1.6rem;
+  font-weight: 500;
+  margin-bottom: 1.2rem;
+  color: #1d1d1f;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 1.2rem;
+  font-size: 1.8rem;
+  font-weight: 400;
+  font-family: inherit;
+  color: #1d1d1f;
+  border: 1px solid rgba(173, 181, 189, 1);
+}
+
+.contact-form input[data-drupal-selector="edit-submit"] {
+  width: 100%;
+  padding: 1.2rem;
+  font-size: 1.8rem;
+  font-weight: 700;
+  font-family: inherit;
+  color: #1d1d1f;
+  border: 2px solid #1d1d1f;
+  background-color: #fff;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.contact-form input[data-drupal-selector="edit-submit"]:hover {
+  color: #fff;
+  background-color: #1d1d1f;
+}

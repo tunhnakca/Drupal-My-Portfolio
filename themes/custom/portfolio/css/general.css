@@ -22,6 +22,11 @@ Large:
 
 --- 02 COLORS
 
+-- NAV
+- Text color: #E8E8ED
+- Backround color: #000000
+- Text-btn hover color: #FFFFFF
+
 - Primary: 
 - Tints:
 
@@ -67,6 +72,7 @@ body {
   line-height: 1;
   font-weight: 400;
   color: #555;
+  background-color: #f5f5f7;
 }
 
 /**************************/
