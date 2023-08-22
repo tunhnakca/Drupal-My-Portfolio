@@ -31,3 +31,11 @@ contact-us:
   css:
     component:
       css/contact-us/contact-us.css: {}
+
+portfolio-hero:
+  version: 0.6
+  css:
+    component:
+      css/portfolio-hero/portfolio-hero.css: {}
+  js:
+    js/portfolio-hero/portfolio-hero.js: {}
