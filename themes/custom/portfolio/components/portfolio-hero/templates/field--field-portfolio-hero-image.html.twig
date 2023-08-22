@@ -42,21 +42,16 @@
   ]
 %}
 
-{%
-  set classes = [
-    'heading-primary',
-    'center-text',
-  ]
-%}
-
 {% if label_hidden %}
   {% if multiple %}
+    <div{{ attributes }}>
       {% for item in items %}
-        <h1{{ item.attributes.addClass(classes) }}>{{ item.content }}</h1>
+        <div{{ item.attributes.addClass('center-text') }}>{{ item.content }}</div>
       {% endfor %}
+    </div>
   {% else %}
     {% for item in items %}
-      <h1{{ attributes.addClass(classes) }}>{{ item.content }}</h1>
+      <div{{ attributes.addClass('center-text') }}>{{ item.content }}</div>
     {% endfor %}
   {% endif %}
 {% else %}

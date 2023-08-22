@@ -44,19 +44,20 @@
 
 {%
   set classes = [
-    'heading-primary',
-    'center-text',
+    'hero-description-block',
   ]
 %}
 
 {% if label_hidden %}
   {% if multiple %}
+    <div{{ attributes.addClass(classes) }}>
       {% for item in items %}
-        <h1{{ item.attributes.addClass(classes) }}>{{ item.content }}</h1>
+        {{ item.attributes }}{{ item.content }}
       {% endfor %}
+    </div>
   {% else %}
     {% for item in items %}
-      <h1{{ attributes.addClass(classes) }}>{{ item.content }}</h1>
+      {{ attributes }}{{ item.content }}
     {% endfor %}
   {% endif %}
 {% else %}
