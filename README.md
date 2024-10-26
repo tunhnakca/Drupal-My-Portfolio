@@ -15,6 +15,14 @@ This project is my personal portfolio website created with Drupal, showcasing my
 ## Status
 **Note**: The project is currently incomplete and ongoing.
 
+## Images
+![My Portfolio Screenshot 1](website_SS_1.png)
+
+![My Portfolio Screenshot 2](website_SS_2.png)
+
+![My Portfolio Screenshot 3](website_SS_3.png)
+
+
 
 ------------------------------------------------------------------------------------------------------------------
 
