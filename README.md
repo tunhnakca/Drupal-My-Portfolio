@@ -1,3 +1,23 @@
+# My Personal Portfolio
+
+This project is my personal portfolio website created with Drupal, showcasing my skills, projects, and experiences in web development.
+
+## Features
+- **Custom Theme**: Tailored design for personal branding.
+- **Responsive Design**: Optimized for desktop viewing.
+- **Content Management**: Easy updates through Drupal's user-friendly interface.
+
+## Technologies Used
+- **Drupal**: The content management system.
+- **PHP**: For server-side scripting.
+- **Twig**: Templating engine for rendering HTML.
+
+## Status
+**Note**: The project is currently incomplete and ongoing.
+
+For more details, visit the [GitHub Repository](https://github.com/tunhnakca/Drupal-My-Portfolio).
+
+
 <img alt="Drupal Logo" src="https://www.drupal.org/files/Wordmark_blue_RGB.png" height="60px">
 
 Drupal is an open source content management platform supporting a variety of
