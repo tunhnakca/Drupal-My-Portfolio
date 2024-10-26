@@ -15,7 +15,9 @@ This project is my personal portfolio website created with Drupal, showcasing my
 ## Status
 **Note**: The project is currently incomplete and ongoing.
 
-For more details, visit the [GitHub Repository](https://github.com/tunhnakca/Drupal-My-Portfolio).
+
+------------------------------------------------------------------------------------------------------------------
+
 
 
 <img alt="Drupal Logo" src="https://www.drupal.org/files/Wordmark_blue_RGB.png" height="60px">
